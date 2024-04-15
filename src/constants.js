@@ -1,0 +1,24 @@
+const INPUT_COLORS = [
+	"#61DDC0",
+	"#61DDC0",
+	"#61DDC0",
+	"#61DDC0",
+	"#7AA095",
+	"#7AA095",
+	"#40531B",
+	"#40531B",
+	"#618B4A",
+	"#618B4A",
+	"#618B4A",
+	"#AFBC88",
+	"#102542",
+	"#C49991",
+	"#C49991",
+	"#C49991",
+	"#A846A0",
+	"#A846A0",
+	"#744253",
+];
+const OUTPUT_COLORS = ["#FFA630", "#D7E8BA", "#4DA1A9", "#2E5077", "#611C35"];
+
+export { INPUT_COLORS, OUTPUT_COLORS };
