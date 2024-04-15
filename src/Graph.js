@@ -1,11 +1,10 @@
+import { Checkbox } from "@mui/material";
+import { useState } from "react";
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import "./App.css";
+import { OUTPUT_COLORS } from "./constants.js";
 import "./dataset.js";
 import { useDataset } from "./dataset.js";
-import { useFilters } from "./Filters.js";
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label } from "recharts";
-import { OUTPUT_COLORS } from "./constants.js";
-import { useState } from "react";
-import { Checkbox } from "@mui/material";
 
 function Graph({ filteredIndices, setFilteredIndices }) {
 	const { outputGraphData } = useDataset();
